@@ -1,0 +1,135 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jackscv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Jack Berry's CV</h1>
+        <img class="picture" src="Jackpic.jpg" alt="A picture of Jack" />
+      </div>
+      <div class="menudiv">
+        <nav>
+          <div class="burger" tabindex="0">
+            <img src="burger.png" alt="A picture of Jack" />
+          </div>
+
+          <ul>
+            <li>
+              <a href="#">Sections</a>
+              <ul>
+                <li>Contact</li>
+                <li>Employment</li>
+                <li>Education</li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+              <ul>
+                <li>Telephone</li>
+                <li>Email</li>
+                <li>
+                  <a href="#">Socials</a>
+                  <ul>
+                    <li>Instagram</li>
+                    <li>Linkedin</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="arrange">
+        <div class="container">
+          <h2>Contact details</h2>
+          <ul>
+            <li>07898819714</li>
+            <li>Jackdanielberry@gmail.com</li>
+            <li>
+              The Cottage<br />
+              72 Byrons Lane<br />
+              Macclesfield<br />
+              Cheshire<br />
+              SK117JS
+            </li>
+            <li>02/09/1991</li>
+          </ul>
+        </div>
+        <div class="container">
+          <h2>Employment History</h2>
+          <p>
+            Please find below my employment history for the last decade.
+            References are available upon request.
+          </p>
+          <ul>
+            <li>Zuto - Dealer Compliance - 2014-2016</li>
+            <li>Full time Carer - 2016-2017</li>
+            <li>The E-Cig Store - Area Manager - 2017-2020</li>
+            <li>Self Employed - Landlord/Estate Management - 2020-Present</li>
+          </ul>
+        </div>
+        <div class="container">
+          <h2>Education</h2>
+          <ul>
+            <li>Degree - Liverpool Institute for Performing Arts - 2:2</li>
+            <li>
+              Btec Level 3 - The Manchester College - Distinction, Distinction,
+              Merit
+            </li>
+            <li>GCSE's - Macclesfield High School - 4 A's, 5 B's, 2 C's</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+
+import React, { Component } from "react";
+
+class Section extends Component {
+  state = {
+    contact: [{ entry: "", data: "" }],
+  };
+  render() {
+    return (
+      <>
+        <h1>{this.props.title}</h1>
+        <ul>
+          {this.props.li.map((li) => {
+            return <li>{this.li.entry}</li>;
+          })}
+        </ul>
+        <ul>
+          {this.props.li.map((li) => {
+            return <li>{this.li.data}</li>;
+          })}
+        </ul>
+      </>
+    );
+  }
+}
+
+export default Section;
+
+
+
+
+
+<Section title={item.title} li={item.li} />
+
+
+
+
+</html> -->
